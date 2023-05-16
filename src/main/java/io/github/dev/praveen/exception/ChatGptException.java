@@ -1,4 +1,4 @@
-package com.spring.gpt.exception;
+package io.github.dev.praveen.exception;
 
 public class ChatGptException extends RuntimeException {
 

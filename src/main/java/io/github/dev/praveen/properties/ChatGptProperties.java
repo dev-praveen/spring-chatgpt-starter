@@ -1,4 +1,5 @@
-package com.spring.gpt.properties;
+package io.github.dev.praveen.properties;
+
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

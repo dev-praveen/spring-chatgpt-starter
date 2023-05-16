@@ -1,10 +1,10 @@
-package com.spring.gpt.service.impl;
+package io.github.dev.praveen.service.impl;
 
-import com.spring.gpt.dto.ChatRequest;
-import com.spring.gpt.dto.ChatResponse;
-import com.spring.gpt.exception.ChatGptException;
-import com.spring.gpt.properties.ChatGptProperties;
-import com.spring.gpt.service.ChatGptService;
+import io.github.dev.praveen.dto.ChatRequest;
+import io.github.dev.praveen.dto.ChatResponse;
+import io.github.dev.praveen.exception.ChatGptException;
+import io.github.dev.praveen.properties.ChatGptProperties;
+import io.github.dev.praveen.service.ChatGptService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
@@ -16,8 +16,8 @@ import reactor.core.publisher.Mono;
 @Service
 public class DefaultChatGptService implements ChatGptService {
 
-  private final WebClient webClient = WebClient.create();
   protected final ChatGptProperties chatgptProperties;
+  private final WebClient webClient = WebClient.create();
   private final String AUTHORIZATION;
 
   public DefaultChatGptService(ChatGptProperties chatgptProperties) {

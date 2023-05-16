@@ -1,4 +1,4 @@
-package com.spring.gpt.dto;
+package io.github.dev.praveen.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

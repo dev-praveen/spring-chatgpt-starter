@@ -1,8 +1,8 @@
-package com.spring.gpt.config;
+package io.github.dev.praveen.config;
 
-import com.spring.gpt.properties.ChatGptProperties;
-import com.spring.gpt.service.ChatGptService;
-import com.spring.gpt.service.impl.DefaultChatGptService;
+import io.github.dev.praveen.properties.ChatGptProperties;
+import io.github.dev.praveen.service.ChatGptService;
+import io.github.dev.praveen.service.impl.DefaultChatGptService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

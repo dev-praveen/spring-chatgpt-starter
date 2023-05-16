@@ -1,4 +1,5 @@
-package com.spring.gpt.dto;
+package io.github.dev.praveen.dto;
+
 
 import lombok.Data;
 import java.time.LocalDate;import java.util.List;
