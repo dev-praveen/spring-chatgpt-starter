@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\config.io.github.dev-praveen.ChatGptAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\config.io.github.dev.praveen.ChatGptAutoConfiguration
